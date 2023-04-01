@@ -174,32 +174,17 @@ button:focus,
 }
 @keyframes color-change {
     0% {
-        fill: red;
+        fill: black;
     }
-    16% {
-        fill: orange;
-    }
-    32% {
-        fill: yellow;
-    }
-    48% {
-        fill: green;
-    }
-    54% {
-        fill: blue;
-    }
-    70% {
-        fill: indigo;
-    }
-    86% {
-        fill: purple;
+    50% {
+        fill: var(--primary-color);
     }
     100% {
         fill: white;
     }
 }
 .dog {
-    animation: 4s color-change infinite alternate linear;
+    animation: 10s color-change infinite alternate linear;
 }
 @keyframes cloud-move {
     from {
