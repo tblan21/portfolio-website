@@ -23,6 +23,7 @@ body {
     line-height: 1.6;
 }
 h1 {
+    text-align: center;
     font-size: var(--font-size-h1);
     font-weight: var(--font-weight-bold);
 }
@@ -99,6 +100,9 @@ button:focus,
     margin: 0 auto;
     max-width: 1000px;
 }
+.work {
+    margin: 0px 50px;
+}
 .contact {
     clear: both;
     display: flex;
@@ -144,10 +148,10 @@ button:focus,
         grid-gap: 20px;
     }
     .grid__item {
-        background-color: lightgray;
+        background-color: #E1D3B1;
         width: auto;
         min-height: auto;
-        padding: 10px;
+        padding: 25px;
     }
 }
 @media all and (max-width: 500px) {
