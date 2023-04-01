@@ -80,8 +80,6 @@ button:focus,
     width: 150px;
     margin-right: 20px;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
 }
 .page-footer {
     clear: both;
