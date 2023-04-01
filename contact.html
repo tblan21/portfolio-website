@@ -7,7 +7,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/style.production.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
@@ -30,21 +30,23 @@
                     </ul>
                 </nav>
             </header>
-        <h1>Contact</h1> 
-        <div>
-            Tel <a href="tel:+19852260413">+1-985-226-0413</a><br>
-            Email <a href="mailto:tmb2225@gmail.com">tmb2225@gmail.com</a> <br>
-            <a href="mailto:tmb2225@gmail.com">Contact Me</a><br>
+        <div class="contact">
+            <div>
+            <h1>Contact</h1> 
+                Tel <a href="tel:+19852260413">+1-985-226-0413</a><br>
+                Email <a href="mailto:tmb2225@gmail.com">tmb2225@gmail.com</a> <br>
+                <a href="mailto:tmb2225@gmail.com">Contact Me</a><br>
+            </div>    
+            <form action="" method="post" id="contact-form">
+                <label class="standard-label" for="contact-email">Email address</label>
+                    <input type="email" id="contact-email" required>
+                <label class="standard-label" for="contact-phone">Phone</label> 
+                    <input type="tel" id="contact-phone">   
+                <label class="standard-label" for="contact-message"> Your message:</label>
+                    <textarea maxlength="240" id="contact-message" required></textarea>
+                <input type="submit" name="contact-message" value="Send message">   
+            </form>
         </div>   
-        <form action="" method="post" id="contact-form">
-            <label class="standard-label" for="contact-email">Email address</label>
-                <input type="email" id="contact-email" required>
-            <label class="standard-label" for="contact-phone">Phone</label> 
-                <input type="tel" id="contact-phone">   
-            <label class="standard-label" for="contact-message"> Your message:</label>
-                <textarea maxlength="240" id="contact-message" required></textarea>
-            <input type="submit" name="contact-message" value="Send message">   
-        </form>
         <footer class="page-footer">
             <p>
                 Find me on
