@@ -76,6 +76,13 @@ button:focus,
     margin-right: 40px;
     border-radius: 50%;
 }
+.profile__portrait--about {
+    width: 150px;
+    margin-right: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
 .page-footer {
     clear: both;
     display: flex;
@@ -87,6 +94,15 @@ button:focus,
     margin: 0 auto;
 }
 .about-me, .contact, .dog-searching {
+.about-me, .dog-searching, .profile__portrait--about {
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.contact {
     clear: both;
     display: flex;
     flex-direction: column;
