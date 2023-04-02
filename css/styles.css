@@ -57,6 +57,9 @@ button,
     border-bottom: 2px solid var(--secondary-color);
     transition: 0.5s opacity;
 }
+.button__resume {
+    max-width: 200px;
+}
 button:hover, 
 button:focus,
 .button:hover,
