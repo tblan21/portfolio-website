@@ -103,6 +103,9 @@ button:focus,
     margin: 0 auto;
     max-width: 1000px;
 }
+.hobbies__list {
+    list-style-type: none;
+}
 .work {
     margin: 0px 50px;
 }
