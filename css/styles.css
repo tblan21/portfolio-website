@@ -109,6 +109,9 @@ button:focus,
 .work {
     margin: 0px 50px;
 }
+.work__header {
+    text-align: center;
+}
 .contact {
     clear: both;
     display: flex;
