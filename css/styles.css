@@ -96,7 +96,10 @@ button:focus,
     max-width: 700px;
     margin: 0 auto;
 }
-.about-me, .dog-searching, .profile__portrait--about {
+.profile__intro {
+    padding-top: 40px;
+}
+.about-me, .dog-searching, .profile__portrait--about, .button__resume {
     clear: both;
     display: flex;
     flex-direction: column;
